@@ -1,0 +1,18 @@
+@media screen and (min-width:1700px) {
+    .container {
+        max-width: 160rem;
+        padding: 0 1rem;
+    }
+}
+@media screen and (max-width:992px) {
+    .navbar-collapse {
+        background: linear-gradient(0deg, #000 16.49%, #c8191c 274.79%);
+        border-radius: 0.9rem;
+    }
+    .nav-item .nav-link {
+        border-bottom: 0.2rem solid rgba(255, 255, 255, 0.2);
+    }
+    .navbar-nav li:last-child a {
+        border-bottom: none;
+    }
+}
